@@ -1,0 +1,30 @@
+.navigation
+  &-tabs
+    float: left
+    height: inherit
+
+  &-listItem
+    display: block
+    float: left
+    font-size: 16px
+    font-weight: 500
+    padding: 16px 24px 18px 20px
+    text-decoration: none
+    text-transform: uppercase
+    border-bottom: 2px solid
+    border-color: rgba(255, 255, 255, .0)
+
+    &.active
+      border-bottom: 2px solid #fff
+      box-sizing: border-box
+      transition: border-color .5s ease-in-out
+
+      & > .navigation-link
+        color: #fff
+
+  &-link
+    color: rgba(255, 255, 225, 0.7)
+    display: block
+    float: left
+    text-decoration: none
+    transition: 0.5s  ease-in-out
